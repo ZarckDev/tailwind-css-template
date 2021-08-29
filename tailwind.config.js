@@ -9,7 +9,6 @@ module.exports = {
     extend: {
       // it will extends from already existing variants properties
       backgroundColor: ['active'], // enable change background color on active
-      fontSize: ['hover'], // enable change font size on hover
     },
   },
   plugins: [],
