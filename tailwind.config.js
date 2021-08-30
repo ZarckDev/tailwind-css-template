@@ -1,5 +1,8 @@
 module.exports = {
-  purge: [],
+  purge: {
+    // enabled: true, // even running on dev mode
+    content: ['./src/**/*.jsx', './index.html'], // any subdirectory and any file in src for scanning
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
